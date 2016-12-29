@@ -81,7 +81,7 @@ body {
     border-color:transparent;
 }
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
-    color: #A1B3A4;
+    color: #536C56;
     background-color: rgba(8, 8, 8, 0);
 }
 .navbar-inverse .navbar-brand {
@@ -92,7 +92,7 @@ body {
 	text-transform:uppercase;
 }
 .navbar-inverse .navbar-nav>li>a {
-    color: #A1B3A4;
+    color: #536C56;
     font-size: 1.2em;
     font-weight: normal;
 }
@@ -153,7 +153,7 @@ body {
 }
 .link-effect a:hover,
 .link-effect a:focus {
-	color: #A1B3A4;
+	color: #536C56;
 }
 .link-effect a:hover::before,
 .link-effect a:focus::before,
@@ -215,7 +215,7 @@ body {
     margin: 280px 0 0 390px;
 }
 .banner-info h3{
-	color: #A1B3A4;
+	color: #536C56;
 	font-size: 52px;
 	font-weight: bold;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
@@ -224,7 +224,7 @@ body {
 	padding: 60px 0 20px 0;
 }
 .banner-info p {
-	color: #A1B3A4;
+	color: #536C56;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
 	font-size: 34px;
 	font-weight: normal;
@@ -255,7 +255,7 @@ body {
 span.line1 {
 	width:484px;
 	height:1px;
-	background-color:#A1B3A4;
+	background-color:#536C56;
 	display:block;
 	margin:0 auto;
 }
@@ -263,7 +263,7 @@ span.line2 {
 	width:484px;
 	height:1px;
 	display:block;
-	background-color:#A1B3A4;
+	background-color:#536C56;
 	margin:0 auto;
 }
 /*-- /banner --*/
