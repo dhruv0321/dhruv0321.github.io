@@ -2,7 +2,7 @@
 
 $(function() {
 
-    $("#contact input,#contact textarea").jqBootstrapValidation({
+    $("#contactForm input,#contactForm textarea").jqBootstrapValidation({
         preventSubmit: true,
         submitError: function($form, event, errors) {
             // additional error messages or events
@@ -15,7 +15,7 @@ $(function() {
           //var phone = $("input#phone").val();
             //var admnumber = $("input#admnumber").val();
             //var roll = $("input#roll").val();
-            var message = $("input#message").val();
+            var comment = $("input#comment").val();
             var firstName = name; // For Success/Failure Message
             // Check for white space in name for Success/Fail message
             if (firstName.indexOf(' ') >= 0) {
@@ -30,7 +30,7 @@ $(function() {
                     email: email,
                     //admnumber: admnumber,
                     //roll: roll,
-                    message: message
+                    comment: comment
                 },
                 cache: false,
                 success: function() {
