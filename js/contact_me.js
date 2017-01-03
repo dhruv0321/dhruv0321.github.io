@@ -15,7 +15,7 @@ $(function() {
           //var phone = $("input#phone").val();
             //var admnumber = $("input#admnumber").val();
             //var roll = $("input#roll").val();
-            var comment = $("input#comment").val();
+            var message = $("input#message").val();
             var firstName = name; // For Success/Failure Message
             // Check for white space in name for Success/Fail message
             if (firstName.indexOf(' ') >= 0) {
@@ -30,7 +30,7 @@ $(function() {
                     email: email,
                     //admnumber: admnumber,
                     //roll: roll,
-                    comment: comment
+                    message: message
                 },
                 cache: false,
                 success: function() {
