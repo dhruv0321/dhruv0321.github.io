@@ -21,6 +21,22 @@ $email_subject = "Website Contact Form:  $name";
 $email_body = "You have received a new message from your website contact form.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message";
 $headers = "From: noreply@dhruv0321.github.io\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
 $headers .= "Reply-To: $email_address";
-mail($to,$email_subject,$email_body,$headers);
-return true;
-?>
+$mail_status = mail($to,$email_subject,$email_body,$headers);
+if ($mail_status) { ?>
+    <script language="javascript" type="text/javascript">
+        // Print a message
+        alert('Thank you for the message. We will contact you shortly.');
+        // Redirect to some page of the site. You can also specify full URL, e.g. http://template-help.com
+        window.location = 'http://dhruv0321.github.io';
+    </script>
+<?php
+}
+else { ?>
+    <script language="javascript" type="text/javascript">
+        // Print a message
+        alert('Message failed. Please, send an email to dhruv.arora.da.3@gmail.com');
+        // Redirect to some page of the site. You can also specify full URL, e.g. http://template-help.com
+        window.location = 'http://dhruv0321.github.io';
+    </script>
+<?php}
+}?>
