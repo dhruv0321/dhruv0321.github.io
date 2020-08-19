@@ -373,14 +373,14 @@ span.shortline1 {
 	margin-top: 3%;
 }
 span.longline2 {
-	width:270px;
+	width:240px;
 	height:2px;
 	display:inline-block;
 	background-color:#A1B3A4;
 	margin-top: 3%;
 }
 span.shortline2 {
-	width:30px;
+	width:60px;
 	height:2px;
 	display:inline-block;
 	background-color:#fff;
@@ -415,14 +415,28 @@ span.shortline4 {
 	margin-top: 3%;
 }
 span.longline5 {
-	width:288px;
+	width:220px;
 	height:2px;
 	display:inline-block;
 	background-color:#A1B3A4;
 	margin-top: 3%;
 }
 span.shortline5 {
-	width:12px;
+	width:80px;
+	height:2px;
+	display:inline-block;
+	background-color:#fff;
+	margin-top: 3%;
+}
+span.longline6 {
+	width:210px;
+	height:2px;
+	display:inline-block;
+	background-color:#A1B3A4;
+	margin-top: 3%;
+}
+span.shortline6 {
+	width:90px;
 	height:2px;
 	display:inline-block;
 	background-color:#fff;
