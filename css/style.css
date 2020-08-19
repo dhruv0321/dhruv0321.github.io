@@ -81,18 +81,18 @@ body {
     border-color:transparent;
 }
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
-    color: #A1B3A4;
+    color: #000000;
     background-color: rgba(8, 8, 8, 0);
 }
 .navbar-inverse .navbar-brand {
-    color: #A1B3A4;
-	font-size:2.5em;
+    color: #000000;
+	font-size:2em;
 	font-family: 'Cinzel', serif;
 	font-weight:bold;
 	text-transform:uppercase;
 }
 .navbar-inverse .navbar-nav>li>a {
-    color: #A1B3A4;
+    color: #000000;
     font-size: 1.2em;
     font-weight: normal;
 }
@@ -215,7 +215,7 @@ body {
     margin: 280px 0 0 390px;
 }
 .banner-info h3{
-	color: #A1B3A4;
+	color: #000000;
 	font-size: 52px;
 	font-weight: bold;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
@@ -224,7 +224,7 @@ body {
 	padding: 60px 0 20px 0;
 }
 .banner-info p {
-	color: #A1B3A4;
+	color: #000000;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
 	font-size: 34px;
 	font-weight: normal;
